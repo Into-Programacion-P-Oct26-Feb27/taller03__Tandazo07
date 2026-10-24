@@ -1,0 +1,103 @@
+# ==========================================
+# JAVA - ARCHIVOS GENERADOS
+# ==========================================
+
+*.class
+*.war
+*.ear
+*.log
+
+# Archivos JAR generados
+# No ignorar todos los JAR, ya que pueden
+# existir bibliotecas externas necesarias.
+
+
+# ==========================================
+# NETBEANS
+# ==========================================
+
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+
+**/build/
+**/dist/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
+
+
+# ==========================================
+# INTELLIJ IDEA
+# ==========================================
+
+**/.idea/
+*.iml
+*.iws
+*.ipr
+**/out/
+
+
+# ==========================================
+# ECLIPSE
+# ==========================================
+
+**/.metadata/
+**/.settings/
+**/.recommenders/
+
+# Archivos específicos del IDE
+**/.classpath
+**/.project
+
+
+# ==========================================
+# VISUAL STUDIO CODE
+# ==========================================
+
+**/.vscode/
+
+
+# ==========================================
+# MAVEN
+# ==========================================
+
+**/target/
+
+
+# ==========================================
+# GRADLE
+# ==========================================
+
+**/.gradle/
+
+# Mantener el Gradle Wrapper en Git:
+# gradlew
+# gradlew.bat
+# gradle/wrapper/
+
+
+# ==========================================
+# SISTEMAS OPERATIVOS
+# ==========================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+
+# ==========================================
+# ARCHIVOS TEMPORALES
+# ==========================================
+
+*.tmp
+*.bak
+*.temp
